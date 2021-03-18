@@ -1,0 +1,54 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url('/footer.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 509px;
+}
+
+.textZone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-top: 4%;
+}
+.btnZone {
+    display: flex;
+    width: 331px;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.btnZone button:first-child{
+    background-color: var(--orange);
+    padding: 18px 31px;
+    border: transparent;
+    border-radius: 10px;
+    color: var(--white);
+    margin-right: 5%;
+}
+
+.btnZone button:last-child{
+    background-color: transparent;
+    padding: 16px 45px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: var(--white);
+}
+

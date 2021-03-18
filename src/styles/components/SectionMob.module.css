@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1160px;
+    
+}
+
+.textZone > span {
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.textTitle {
+    color: var(--grayText);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+.textSubTitle {
+    color: var(--graySubText);
+    font-size: 1.5rem;
+    margin-top: 4%;
+}

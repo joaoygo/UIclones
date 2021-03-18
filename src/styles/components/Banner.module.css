@@ -1,0 +1,187 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35%;
+}
+
+.container p{
+    color: var(--white);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background: url('/banner-header.png') no-repeat center;
+    background-size: cover;
+    align-items: center;
+}
+
+.areaTexto{
+    margin-top: 4%;
+}
+
+.foodApp{
+    font: 600 1.5rem "Montserrat", sans-serif;
+    margin-bottom: 2%;
+}
+
+.hungry{
+    font: 700 3.6rem "Poppins", sans-serif;
+    margin-bottom: 1.5%;
+}
+
+.Download{
+    font: 500 1.5rem "Montserrat", sans-serif;
+    margin-bottom: 5%;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
+.button > button {
+    padding: 16px;
+    border-radius: 30px;
+    width: 238px;
+    margin-left: 10%;
+    border: 1px solid transparent;
+}
+.button > button:first-child{
+    margin-left: 5%;
+}
+.button button:last-child{
+    
+    border: 1px solid #FFFFFF;
+}
+
+.playStory {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.appStory {
+    color: var(--white);
+    background-color: transparent;
+}
+
+.container > img {
+    display: flex;
+    position: absolute;
+    margin-top: 32%;
+    margin-left: -5%;
+    width: 548px;
+}
+
+
+@media(max-width: 950px) {
+    .banner {
+        display: flex;
+        position: relative;
+        height: 80vh;
+        width: 100vw;
+        flex-direction: column;
+        background: url('/banner-header.png') no-repeat center;
+        background-size: cover;
+        align-items: center;
+    }
+    .container > img {
+        display: flex;
+        position: absolute;
+        margin-top: 40%;
+        margin-left: -5%;
+        width: 548px;
+    }
+}
+
+@media(min-width: 1180px) {
+    .banner {
+        display: flex;
+        position: relative;
+        height: 90vh;
+        width: 100vw;
+        flex-direction: column;
+        background: url('/banner-header.png') no-repeat center;
+        background-size: cover;
+        align-items: center;
+    }
+}
+
+@media(min-width: 1330px) {
+    .banner {
+        display: flex;
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        background: url('/banner-header.png') no-repeat center;
+        background-size: cover;
+        align-items: center;
+    }
+    .container > img {
+        display: flex;
+        position: absolute;
+        margin-top: 32%;
+        margin-left: -5%;
+        width: 548px;
+    }
+}
+
+@media(min-width: 1330px) {
+    .container > img {
+        display: flex;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: -5%;
+        width: 548px;
+    }
+}
+
+@media(min-width: 1550px) {
+    .container > img {
+        display: flex;
+        position: absolute;
+        margin-top: 27%;
+        margin-left: -5%;
+        width: 548px;
+    }
+}
+
+@media(min-width: 1680px) {
+    .container > img {
+        display: flex;
+        position: absolute;
+        margin-top: 25%;
+        margin-left: -5%;
+        width: 548px;
+    }
+}
+
+@media(min-width: 1900px) {
+    .banner {
+        display: flex;
+        position: relative;
+        height: 60vh;
+        width: 100vw;
+        flex-direction: column;
+        background: url('/banner-header.png') no-repeat center;
+        background-size: cover;
+        align-items: center;
+    }
+    .container > img {
+        display: flex;
+        position: absolute;
+        margin-top: 22%;
+        margin-left: -5%;
+        width: 548px;
+    }
+}

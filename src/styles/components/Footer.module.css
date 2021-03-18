@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1440px;
+    padding: 2%;
+}
+
+.logo > img {
+    width: 206px;
+}
+
+.social ul{
+    display: flex;
+    list-style: none;
+}
+
+.social ul li{
+    margin-left: 30%;
+}
