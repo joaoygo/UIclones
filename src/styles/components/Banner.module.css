@@ -64,12 +64,12 @@
     border: 1px solid #FFFFFF;
 }
 
-.playStory {
+.playStore {
     background-color: var(--orange);
     color: var(--white);
 }
 
-.appStory {
+.appStore {
     color: var(--white);
     background-color: transparent;
 }

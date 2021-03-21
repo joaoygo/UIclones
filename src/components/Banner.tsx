@@ -17,19 +17,19 @@ export function Banner(){
                 <div className={styles.button}>
                     <button
                         type= 'button'
-                        className={styles.playStory}
+                        className={styles.playStore}
                     >
 
-                        Playstory
+                        Playstore
 
                     </button>
 
                     <button
                         type= 'button'
-                        className={styles.appStory}
+                        className={styles.appStore}
                     >
 
-                        App story
+                        App store
 
                     </button>
                        
